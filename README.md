@@ -1,26 +1,30 @@
 #### 03603112 Programming Fundamentals II (256402) 
-#### Lab01: Data Types and Operators
+#### Lab02: String, Input/Output, Control Structures, Arrays
 #### Student ID: <YOUR-STUDENT-ID>
 #### Student Name: <YOUR-NAME>
 
-## Homework 1
-Write a Java program, named Lab01Homework1.java, 
-that generate two random numbers based on a seed value input by the user. 
-Both random numbers must lie between **0.0** and **100.0**. 
-Calculate an absolute difference between the two numbers, 
-and print the value of the three numbers on the screen.
+## Homework 2-1
+Write a program Quadratic.java that takes three numbers (a, b, c) from a command line 
+and solves for the roots of a quadratic equation: **ax<sup>2</sup> + bx + c**.
 
-Example Output 1:
+### Sample Run 1:
 ```
-17
-First number: 73.23115139597316
-Second number: 69.73704783607498
-Difference: 3.4941035598981784
+$ java Quadratic 1.0 -3.0 2.0
+2.0
+1.0
 ```
-Example Output 2:
+
+### Sample Run 2:
 ```
-39
-First number: 72.7832425349483
-Second number: 17.45902991988594
-Difference: 55.324212615062365
+$ java Quadratic 1.0 -1.0 -1.0
+1.618033988749895
+-0.6180339887498949
 ```
+
+### Sample Run 3:
+```
+$ java Quadratic 1.0 1.0 1.0
+NaN
+NaN
+```
+
